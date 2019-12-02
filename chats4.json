@@ -1,0 +1,112 @@
+[
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b1990"
+        },
+        "idUser": 6,
+        "userName": "Danny Torrances Finger",
+        "idMessage": 40,
+        "idChat": 4,
+        "datetime": "2019-10-21 10:15:41",
+        "text": "REDRUM"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b1991"
+        },
+        "idUser": 7,
+        "userName": "Danny Torrance",
+        "idMessage": 41,
+        "idChat": 4,
+        "datetime": "2019-10-21 10:16:41",
+        "text": "What was that?"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b1992"
+        },
+        "idUser": 6,
+        "userName": "Danny Torrances Finger",
+        "idMessage": 42,
+        "idChat": 4,
+        "datetime": "2019-10-21 10:17:41",
+        "text": "REDRUM REDRUM REDRUM"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b1993"
+        },
+        "idUser": 7,
+        "userName": "Danny Torrance",
+        "idMessage": 43,
+        "idChat": 4,
+        "datetime": "2019-10-21 10:18:41",
+        "text": "Did you mean red room? Id love a red room."
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b1994"
+        },
+        "idUser": 6,
+        "userName": "Danny Torrances Finger",
+        "idMessage": 44,
+        "idChat": 4,
+        "datetime": "2019-10-21 10:19:41",
+        "text": "Murder, bro, cold blooded splashy murderous fun"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b1995"
+        },
+        "idUser": 7,
+        "userName": "Danny Torrance",
+        "idMessage": 45,
+        "idChat": 4,
+        "datetime": "2019-10-21 10:20:41",
+        "text": "Chill out, pinky.. Its such a nice day"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b1996"
+        },
+        "idUser": 6,
+        "userName": "Danny Torrances Finger",
+        "idMessage": 46,
+        "idChat": 4,
+        "datetime": "2019-10-21 10:21:41",
+        "text": "A nice day to create havoc!"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b1997"
+        },
+        "idUser": 7,
+        "userName": "Danny Torrance",
+        "idMessage": 47,
+        "idChat": 4,
+        "datetime": "2019-10-21 10:22:41",
+        "text": "Ill go for a walk in the park, I guess. Maybe fishing"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b1998"
+        },
+        "idUser": 6,
+        "userName": "Danny Torrances Finger",
+        "idMessage": 48,
+        "idChat": 4,
+        "datetime": "2019-10-21 10:23:41",
+        "text": "Fishing sounds good. What about the labyrinth?"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b1999"
+        },
+        "idUser": 7,
+        "userName": "Danny Torrance",
+        "idMessage": 49,
+        "idChat": 4,
+        "datetime": "2019-10-21 10:24:41",
+        "text": "No! That places creeps me out.."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b1968"
+        },
+        "idUser": 0,
+        "userName": "John Wick",
+        "idMessage": 0,
+        "idChat": 0,
+        "datetime": "2019-10-17 10:15:41",
+        "text": "Hey Mike, whats up??"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b1969"
+        },
+        "idUser": 1,
+        "userName": "Mike Wazowski",
+        "idMessage": 1,
+        "idChat": 0,
+        "datetime": "2019-10-17 10:16:59",
+        "text": "Dude!!! \ud83d\ude00\ufe0f Did you watch the game last night?"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b196a"
+        },
+        "idUser": 0,
+        "userName": "John Wick",
+        "idMessage": 2,
+        "idChat": 0,
+        "datetime": "2019-10-17 10:17:31",
+        "text": "No, had to work. How was it?"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b196b"
+        },
+        "idUser": 1,
+        "userName": "Mike Wazowski",
+        "idMessage": 3,
+        "idChat": 0,
+        "datetime": "2019-10-17 10:18:41",
+        "text": "Awesome! Boyander scored 3 goals!"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b196c"
+        },
+        "idUser": 0,
+        "userName": "John Wick",
+        "idMessage": 4,
+        "idChat": 0,
+        "datetime": "2019-10-17 10:19:41",
+        "text": "No way! \ud83d\ude2e\ufe0f"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b196d"
+        },
+        "idUser": 1,
+        "userName": "Mike Wazowski",
+        "idMessage": 5,
+        "idChat": 0,
+        "datetime": "2019-10-17 10:20:41",
+        "text": "Way..."
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b196e"
+        },
+        "idUser": 0,
+        "userName": "John Wick",
+        "idMessage": 6,
+        "idChat": 0,
+        "datetime": "2019-10-17 10:21:41",
+        "text": "I bet people went crazy"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b196f"
+        },
+        "idUser": 1,
+        "userName": "Mike Wazowski",
+        "idMessage": 7,
+        "idChat": 0,
+        "datetime": "2019-10-17 10:22:41",
+        "text": "For sure. We stayed at KuboLoco until 6AM."
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b1970"
+        },
+        "idUser": 0,
+        "userName": "John Wick",
+        "idMessage": 8,
+        "idChat": 0,
+        "datetime": "2019-10-17 10:23:41",
+        "text": "Motherfucker! Hungover? \ud83d\ude35\ufe0f"
+    },
+    {
+        "_id": {
+            "$oid": "5de3ac3e142b8c30380b1971"
+        },
+        "idUser": 1,
+        "userName": "Mike Wazowski",
+        "idMessage": 9,
+        "idChat": 0,
+        "datetime": "2019-10-17 10:24:41",
+        "text": "Dead, burried and still suffering! \ud83e\udd2e\ufe0f"
+    }
+]
