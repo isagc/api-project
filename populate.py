@@ -19,6 +19,7 @@ db, coll = connectCollection('api-project','api-project')
 
 with open('./chats.json') as f:
     chats_json = json.load(f)
-
+coll.remove({})
+coll.insert_many(chats_json)
 if coll == 0:
     coll.insert_many(chats_json)

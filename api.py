@@ -8,6 +8,7 @@ from bson.json_util import dumps
 import requests
 import nltk 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from functools import reduce
 
 db, coll = p.connectCollection('api-project','api-project')
 
@@ -117,12 +118,17 @@ def getSentiments(chat_id):
         info_sentiment['Message'] = m[2]
         info_sentiment['Sentiment'] = sid.polarity_scores(m[2])
         sentiments.append(info_sentiment)
-    for ids in list(coll.distinct("idMessage")):
-        coll.update_one({"idMessage":ids}, {"$set": {"sentiment":sentiments}})
     print(sentiments)
+    
+    #compound = [e['Sentiment']['compound'] for e in sentiments]
+    #avg_compound = reduce((lambda x,y : x+y), compound)
+
+    for m in list(messages['messages']):
+        coll.update_one({"idMessage":m[0]}, {"$set": {"sentiment":sentiments}})
     return {
         "sentiment" : sentiments,
-        "report" : sentiments[0]
+        "compounds" : compound,
+        "average compounds" : avg_compound
     }
 
 run(host='0.0.0.0', port=8080)
